@@ -126,10 +126,10 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <Link
-                  href="#"
+                  href="https://buy.stripe.com/fZe5oaghD7Sq33a3cc"
                   className="block w-full text-center  bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
                 >
-                  Sign Up
+                  Get Started
                 </Link>
               </div>
               {/* Starter Plan */}
@@ -196,7 +196,7 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <a
-                  href="#"
+                  href="https://buy.stripe.com/aEU17UfdzegOdHO4gh"
                   className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
                 >
                   Get Started
@@ -282,7 +282,7 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <a
-                  href="#"
+                  href="https://buy.stripe.com/3csbMy9Tfb4C47e6oq"
                   className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600"
                 >
                   Get Started

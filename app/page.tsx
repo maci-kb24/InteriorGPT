@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Testimonials from "../components/Testimonials";
 import SquigglyLines from "../components/SquigglyLines";
 import Marquee from "react-fast-marquee";
 import Business from "../public/business.svg";
@@ -9,11 +10,12 @@ import MSN from "../public/msn.svg";
 import NBC from "../public/nbc.svg";
 import BizHome from "../public/biz-home.svg";
 import yahoo from "../public/yahoo.svg";
+import ctaimage from "../public/ctaimage.png";
 
 
 export default function HomePage() {
 
- const logos = [
+  const logos = [
     Business,
     MSN,
     NBC,
@@ -80,16 +82,34 @@ export default function HomePage() {
                 height={100}
                 alt="logos"
                 loading="lazy"
-                
+
                 color="white"
               />
             ))]}
           </Marquee>
         </div>
         <div className="testimonials">
-
+          <Testimonials />
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
+        <div className="two-section">
+          <div className="h-screen">
+
+            <div
+              className=" max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+              <div className=" mb-8">
+                <h2 className="mt-3 mb-4 text-4xl font-extrabold tracking-tight text-gray-900 md:text-4xl dark:text-white">
+                <span className="text-blue-600">Transform any room</span> with<br></br> just one photo</h2>
+               <p>We use advanced AI algorithms to generate<br></br> your dream room</p>
+              </div>
+              <div className=" space-y-8 ">
+                <div>
+                 <Image src={ctaimage} width={400} height={400} alt="Cta Image" className="w-full object-cover h-96 rounded-2xl sm:mt-0 mt-2" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" pricing max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
               Pricing Plans

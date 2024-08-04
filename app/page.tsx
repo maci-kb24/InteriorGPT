@@ -96,14 +96,20 @@ export default function HomePage() {
 
             <div
               className=" max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
-              <div className=" mb-8">
-                <h2 className="mt-3 mb-4 text-4xl font-extrabold tracking-tight text-gray-900 md:text-4xl dark:text-white">
-                <span className="text-blue-600">Transform any room</span> with<br></br> just one photo</h2>
-               <p>We use advanced AI algorithms to generate<br></br> your dream room</p>
+              <div className=" mb-8 text-left">
+                <h2 className="mt-3 mb-4 text-4xl font-extrabold tracking-tight text-gray-900 md:text-5xl dark:text-white">
+                  <span className="text-blue-600">Transform any room</span> with just one photo</h2>
+                <p className="pt-4 text-lg font-medium">We use advanced AI algorithms to generate<br></br> your dream room</p>
+                <Link
+                  className="bg-blue-600 inline-block rounded-xl text-white font-medium px-6 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
+                  href="/dream"
+                >
+                  Try now
+                </Link>
               </div>
               <div className=" space-y-8 ">
                 <div>
-                 <Image src={ctaimage} width={400} height={400} alt="Cta Image" className="w-full object-cover h-96 rounded-2xl sm:mt-0 mt-2" />
+                  <Image src={ctaimage} width={400} height={400} alt="Cta Image" className="w-full object-cover h-96 rounded-2xl sm:mt-0 mt-2" />
                 </div>
               </div>
             </div>

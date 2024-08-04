@@ -10,7 +10,7 @@ import MSN from "../public/msn.svg";
 import NBC from "../public/nbc.svg";
 import BizHome from "../public/biz-home.svg";
 import yahoo from "../public/yahoo.svg";
-import ctaimage from "../public/ctaimage.png";
+import ctaimage from "../public/ctaImage.png";
 
 
 export default function HomePage() {

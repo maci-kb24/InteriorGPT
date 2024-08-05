@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["upcdn.io", "replicate.delivery", "interiorgpt.cc/generate"],
+    domains: ["upcdn.io", "replicate.delivery"],
   },
 };

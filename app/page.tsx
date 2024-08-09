@@ -115,7 +115,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div className=" pricing max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
+        {/* <div className=" pricing max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 ">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
               Pricing Plans
@@ -125,7 +125,6 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Free Plan */}
             <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
               <div className="mb-8">
                 <h3 className="text-2xl font-semibold text-white">Free</h3>
@@ -194,7 +193,6 @@ export default function HomePage() {
                 Get Started
               </Link>
             </div>
-            {/* Starter Plan */}
             <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
               <div className="mb-8">
                 <h3 className="text-2xl font-semibold text-white">Starter</h3>
@@ -264,7 +262,6 @@ export default function HomePage() {
                 Get Started
               </a>
             </div>
-            {/* Pro Plan */}
             <div className="bg-gray-800 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
               <div className="mb-8">
                 <h3 className="text-2xl font-semibold text-white">Pro</h3>
@@ -351,7 +348,7 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>

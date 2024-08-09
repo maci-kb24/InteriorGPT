@@ -31,6 +31,9 @@ export default function Footer() {
           Vercel.
         </a>
       </div>
+      <div>
+        <p className="text-gray-500">Credit to <Link href="https://twitter.com/nutlope" className="underline">Hassan</Link></p>
+      </div>
     </footer>
   );
 }
